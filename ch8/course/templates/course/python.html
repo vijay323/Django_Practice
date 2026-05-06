@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Homepage</title> 
+</head> 
+<body> 
+    <h1>Course of Python</h1> 
+
+    <p>Name:{{nm|capfirst}}</p>
+    <p>Course Duration:{{d|upper}}</p>
+    <p>Total Seats:{{st|floatformat:3}}</p>
+    {% comment %} <p>Todays Date and Time</p>
+    <p>{{dt}}</p>
+    <p>{{dt|date:'D d M Y'}}</p>
+    <p>{{dt|time}}</p>
+    <p>{{dt|date:'H i'}}</p>
+    <p>{{dt|date:'SHORT_DATE_FORMAT'}}</p> {% endcomment %}
+</body> 
+</html>
